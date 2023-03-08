@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".WorkerActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/tvWorName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="Textview"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="#FF0000"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvWorEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="Textview"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="#FF0000"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvWorPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="Textview"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="#FF0000"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tvFeedback2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Very poor work place"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="#0000FF"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:progressBackgroundTint="#C0C0C0"
+            android:progressTint="#0000FF"
+            android:stepSize="0.5">
+        </RatingBar>
+
+        <EditText
+            android:id="@+id/worNameS"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:hint="Make a suggestion"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppinsregular"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="#5A5A5A">
+
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:fontFamily="@font/poppinsregular"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="150dp"
+                android:layout_gravity="left" />
+
+
+
+            <Button
+                android:id="@+id/back5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:fontFamily="@font/poppinsregular"
+                android:layout_gravity="right" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

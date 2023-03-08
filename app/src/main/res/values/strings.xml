@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">The MCWES1</string>
+    <string name="type_of_company">Type of company</string>
+    <string name="name_of_the_company">Name of the company</string>
+    <string name="apparel_store">Apparel store</string>
+    <string name="car_dealership">Car dealership</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="logo">TODO</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string-array name="Work_available">
+        <item>Waiter</item>
+        <item>Chef</item>
+        <item>Cleaner</item>
+        <item>Cashier</item>
+
+    </string-array>
+    <string name="new_worker_sign_up">New worker? Sign up</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="customer_name">Customer name</string>
+    <string name="customer_details">Customer details</string>
+    <string name="reset">Reset</string>
+    <string name="select_class">Select class</string>
+    <string name="worker">Worker</string>
+    <string name="customer">Customer</string>
+    <string name="manager">Manager</string>
+    <string name="welcome">Welcome</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="textview">TextView</string>
+    <string name="back2">Back</string>
+    <string name="login2">Login</string>
+    <string name="reset2">Reset</string>
+    <string name="textview2">TextView</string>
+    <string name="send_otp">Send otp</string>
+    <string name="registered_email">Registered email</string>
+    <string name="submit">Submit</string>
+    <string name="otp_code">OTP code</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="dialog_message">Close this application ?</string>
+    <string name="dialog_title">Message from MCWES</string>
+    <string name="title_activity_customer_details">CustomerDetailsActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>

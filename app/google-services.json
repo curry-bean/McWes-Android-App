@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913279837391",
+    "project_id": "the-mcwes",
+    "storage_bucket": "the-mcwes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913279837391:android:5c2eeee53e54357fbd03ba",
+        "android_client_info": {
+          "package_name": "com.example.themcwes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913279837391-pjs53kq0emc4jiqjsl88721b172cb6ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLKEzMFmvrF9x3K-Ovo3b_wU9WCKp_p4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913279837391-pjs53kq0emc4jiqjsl88721b172cb6ua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
